@@ -1,323 +1,665 @@
+
 <!doctype html>
-<html lang="en">
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html">
+<title>医疗信息网</title>
+<meta name="Keywords" content="医院,医院,口腔医学,消化病,器官衰竭">
+<meta name="Description" content="医疗、教学、科研和预防保健为一体的拥有口腔科,口腔医学,内科,消化病,外科学,病理科,肾内科,围产医学,器官衰竭,恵侨科,创伤骨科等52个科室的大型综合性三级甲等医院，全国首批百佳医院">
+<!--PubLog:IsIncludeFile-->
 
-	<head>
-		<meta charset="UTF-8">
-		<title>后台管理-WeAdmin Frame型后台管理系统-WeAdmin 1.0</title>
-		<meta name="renderer" content="webkit|ie-comp|ie-stand">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-		<meta http-equiv="Cache-Control" content="no-siteapp" />
-		<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="./static/css/font.css">
-		<link rel="stylesheet" href="./static/css/weadmin.css">
-		<script type="text/javascript" src="./lib/layui/layui.js" charset="utf-8"></script>
+<meta http-equiv="Cache-Control" content="no-transform">
+<link rel="stylesheet" href="html/css/nfyy_base.css">
+<link rel="stylesheet" href="html/css/nfyy_other.css">
+<script type="text/javascript" src="html/js/jquery.min.js"></script>
+<base target="_blank">
 
-	</head>
+<link rel="stylesheet" href="html/css/nfyy_index_v1.css">
+<link rel="stylesheet" href="html/css/mdt.css">
+</head>
 
-	<body>
-		<!-- 顶部开始 -->
-		<div class="container">
-			<div class="logo">
-				<a href="./index.html">WeAdmin v1.0</a>
-			</div>
-			<div class="left_open">
-				<!-- <i title="展开左侧栏" class="iconfont">&#xe699;</i> -->
-				<i title="展开左侧栏" class="layui-icon layui-icon-shrink-right"></i>
-				
-			</div>
-			<ul class="layui-nav left fast-add" lay-filter="">
-				<li class="layui-nav-item">
-					<a href="javascript:;">+新增</a>
-					<dl class="layui-nav-child">
-						<!-- 二级菜单 -->
-						<dd>
-							<a onclick="WeAdminShow('资讯','https://www.baidu.com/')"><i class="layui-icon layui-icon-list"></i>资讯</a>
-						</dd>
-						<dd>
-							<a onclick="WeAdminShow('图片','http://www.baidu.com')"><i class="layui-icon layui-icon-picture-fine"></i>图片</a>
-						</dd>
-						<dd>
-							<a onclick="WeAdminShow('用户','https://www.baidu.com/')"><i class="layui-icon layui-icon-user"></i>用户</a>
-						</dd>
-					</dl>
-				</li>
-			</ul>
-			<ul class="layui-nav right" lay-filter="">
-				<li class="layui-nav-item">
-					<a href="javascript:;">Admin</a>
-					<dl class="layui-nav-child">
-						<!-- 二级菜单 -->
-						<dd>
-							<a onclick="WeAdminShow('个人信息','http://www.baidu.com')">个人信息</a>
-						</dd>
-						<dd>
-							<a onclick="WeAdminShow('切换帐号','./login.html')">切换帐号</a>
-						</dd>
-						<dd>
-							<a class="loginout" href="./login.html">退出</a>
-						</dd>
-					</dl>
-				</li>
-				<li class="layui-nav-item to-index">
-					<a href="/">前台首页</a>
-				</li>
-			</ul>
-
-		</div>
-		<!-- 顶部结束 -->
-		<!-- 中部开始 -->
-		<!-- 左侧菜单开始 -->
-		<div class="left-nav">
-			<div id="side-nav">
-				<ul id="nav">
-					<li>
-						<a href="javascript:;">
-							<i class="iconfont">&#xe6b8;</i>
-							<cite>会员管理</cite>
-							<i class="iconfont nav_right">&#xe697;</i>
-						</a>
-						<ul class="sub-menu">
-							<li>
-								<a _href="./pages/member/list.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>会员列表</cite>
-
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/member/del.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>会员删除</cite>
-
-								</a>
-							</li>
-							<li>
-								<a href="javascript:;">
-									<i class="iconfont">&#xe70b;</i>
-									<cite>会员管理</cite>
-									<i class="iconfont nav_right">&#xe697;</i>
-								</a>
-								<ul class="sub-menu">
-									<li>
-										<a _href="./pages/member/addInput.html">
-											<i class="iconfont">&#xe6a7;</i>
-											<cite>输入框操作</cite>
-										</a>
-									</li>
-									<li>
-										<a _href="./pages/404.html">
-											<i class="iconfont">&#xe6a7;</i>
-											<cite>三级菜单演示</cite>
-										</a>
-									</li>
-									<li>
-										<a _href="./pages/404.html">
-											<i class="iconfont">&#xe6a7;</i>
-											<cite>导航菜单演示</cite>
-										</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<i class="iconfont">&#xe705;</i>
-							<cite>文章管理</cite>
-							<i class="iconfont nav_right">&#xe697;</i>
-						</a>
-						<ul class="sub-menu">
-							<li>
-								<a _href="./pages/article/list.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>文章列表</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/article/category.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>分类管理</cite>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<i class="iconfont">&#xe723;</i>
-							<cite>订单管理</cite>
-							<i class="iconfont nav_right">&#xe697;</i>
-						</a>
-						<ul class="sub-menu">
-							<li>
-								<a _href="./pages/order/list.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>订单列表</cite>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<i class="iconfont">&#xe726;</i>
-							<cite>管理员管理</cite>
-							<i class="iconfont nav_right">&#xe697;</i>
-						</a>
-						<ul class="sub-menu">
-							<li>
-								<a _href="./pages/admin/list.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>管理员列表</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/admin/role.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>角色管理</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/admin/cate.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>权限分类</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/admin/rule.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>权限管理</cite>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="javascript:;">
-							<i class="iconfont">&#xe6ce;</i>
-							<cite>系统统计</cite>
-							<i class="iconfont nav_right">&#xe697;</i>
-						</a>
-						<ul class="sub-menu">
-							<li>
-								<a _href="./pages/echarts/echarts1.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>拆线图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts2.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>柱状图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts3.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>地图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts4.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>饼图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts5.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>雷达图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts6.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>k线图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts7.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>热力图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts8.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>仪表图</cite>
-								</a>
-							</li>
-							<li>
-								<a _href="./pages/echarts/echarts9.html">
-									<i class="iconfont">&#xe6a7;</i>
-									<cite>地图DIY实例</cite>
-								</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<!-- <div class="x-slide_left"></div> -->
-		<!-- 左侧菜单结束 -->
-		<!-- 右侧主体开始 -->
-		<div class="page-content">
-			<div class="layui-tab tab" lay-filter="wenav_tab" id="WeTabTip" lay-allowclose="true">
-				<ul class="layui-tab-title" id="tabName">
-					<li>我的桌面</li>
-				</ul>
-				<div class="layui-tab-content">
-					<div class="layui-tab-item layui-show">
-						<iframe src='./pages/welcome.html' frameborder="0" scrolling="yes" class="weIframe"></iframe>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="page-content-bg"></div>
-		<!-- 右侧主体结束 -->
-		<!-- 中部结束 -->
-		<!-- 底部开始 -->
-		<div class="footer">
-			<div class="copyright">Copyright ©2018 WeAdmin v1.0 All Rights Reserved</div>
-		</div>
-		<!-- 底部结束 -->
-		<script type="text/javascript">
-//			layui扩展模块的两种加载方式-示例
-//		    layui.extend({
-//			  admin: '{/}../../static/js/admin' // {/}的意思即代表采用自有路径，即不跟随 base 路径
-//			});
-//			//使用拓展模块
-//			layui.use('admin', function(){
-//			  var admin = layui.admin;
-//			});
-			layui.config({
-			  base: './static/js/'
-			  ,version: '101100'
-			}).use('admin');
-			layui.use(['jquery','admin'], function(){
-				var $ = layui.jquery;
-				$(function(){
-					var login = JSON.parse(localStorage.getItem("login"));
-					if(login){
-						if(login=0){
-							window.location.href='./login.html';
-							return false;
-						}else{
-							return false;
-						}
-					}else{
-						window.location.href='./login.html';
-						return false;
-					}
-				});
-			});
-
-		</script>
-	</body>
-	<!--Tab菜单右键弹出菜单-->
-	<ul class="rightMenu" id="rightMenu">
-        <li data-type="fresh">刷新</li>
-        <li data-type="current">关闭当前</li>
-        <li data-type="other">关闭其它</li>
-        <li data-type="all">关闭所有</li>
+<body>
+<!--PubLog:IsIncludeFile-->
+<div class="top-bar-wrap">
+<div class="top-bar clearfix">
+<div class="tb-tools fr">
+	<span class="tb-com tb-pop tb-wx fl">
+		<span class="tb-pop-tit">
+			<a href="javascript:;" target="_self"><font>官方微信</font><i class="arrow"></i></a>
+		</span>
+		<em></em>
+		<span class="tb-pop-con">
+			南方医院微信官号
+			<br>
+			<a href=""><img src="html/images/pic/img_pic1.jpg" width="117" height="117" alt=""></a>
+			<br>
+			扫一扫关注南方医院
+		</span>
+	</span>
+	<span class="tb-com fl">
+		<span class="tb-wb">
+			<span>官方微博</span>
+			<a href="" class="sina-wb"></a>
+			<a href="" class="qq-wb"></a>	
+		</span>
+	</span>
+	<span class="tb-com fl">
+		<a href="">南方医院</a>
+	</span>
+	<span class="tb-com fl">
+		<a href="javascript:;">English</a>
+	</span>
+</div>
+</div>
+</div>
+<div class="main"> <div class="header clearfix">
+    <div class="logo fl"></div>
+<div class="person-center fr"><a href="">个人中心</a></div>
+<div class="search-bar fr">
+<span class="search-keyword">
+<script type="text/javascript">
+var hotTopKeywords=["惠侨楼","消化内镜","侯凡凡"];
+   for (var i = 0; i < hotTopKeywords.length;i++)
+        {
+            document.write('<a href="/search/?keyword=' + encodeURI(hotTopKeywords[i]) + '">' + hotTopKeywords[i] + '</a>')
+        }
+</script>  
+</span>
+<form action="/search/">
+	<input type="text" class="search-txt" value="院士" name="keyword">
+	<input type="submit" value="" class="search-btn">
+	</form>	
+</div>
+</div> 
+  <!--导航栏部分-->
+  <div class="nav" id="topMainNav">
+    <ul class="nav-bar clearfix">
+      <li class="nav-item"><!--li class="nav-item home"-->
+   <div class="nav-item-tit on" id="nav_home"><a href="" target="_self">首页 </a></div>
+</li>
+<li class="nav-item"><!--li class="nav-item first"-->
+<div class="nav-item-tit" id="nav_yyjs"><a href="aboutus/Index.html" target="_self">医院概况</a></div>
+    <ul class="nav-item-list">
+        <li><a href="javascript:;" target="_self">医院简介</a></li>
+        <li><a href="javascript:;" target="_self">医院文化</a></li>
+        <li><a href="xwzx/yyxw/a_103535.html" target="_self">现任领导</a></li>
+        <li><a href="javascript:;" target="_self">院士风采</a></li>
+        <li><a href="javascript:;" target="_self">组织架构</a></li>
+        <li><a href="javascript:;" target="_self">医院荣誉</a></li>
+       <!-- <li><a href="http://www.nfyy.com/ysg2/" target="_self">院史馆</a></li>-->
+    </ul>
+</li> <li class="nav-item">
+    <div class="nav-item-tit" id="nav_hzfw"><a href="hzfw/Index.html" target="_self">服务导航</a></div>
+        <ul class="nav-item-list">
+        <li><a href="hzfw/k1.html" target="_self">就医指南</a></li>
+        <li><a href="hzfw/k2.html" target="_self">智能分诊</a></li>
+        <li><a href="appointment/appointmentindex.html" target="_self">预约挂号</a></li>
     </ul>
 
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_jkjy"><a href="/yxzd/"  target="_self">医学指导</a></div>
+    <ul class="nav-item-list">
+        <li><a href="/yxzd/yxcs/" target="_self">医学常识</a></li>
+        <li><a href="/yxzd/yfbj/" target="_self">预防保健</a></li>
+        <li><a href="/yxzd/jbgl/" target="_self">疾病管理</a></li>
+        <li><a href="/yxzd/yyzd/" target="_self">用药指导</a></li>
+        <li><a href="/yxzd/kfzd/" target="_self">康复指导</a></li>
+        <li class="nobline"><a href="/yxzd/jkft/" target="_self">健康访谈</a></li>
+    </ul>
+
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_mymk"><a href="mymk/Index.html" target="_self">名医名科</a></div>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_xwzx"><a href="./articlelistpage" target="_self">新闻中心</a></div>
+    <ul class="nav-item-list">
+       <!--  <li><a href="/xwzx/mzdt/simpleList.html" target="_self">门诊动态</a></li>-->
+        <li><a href="./articlelistpage" target="_self">医院公告</a></li>
+        <li><a href="./articlelistpage" target="_self">医院新闻</a></li>
+        <li><a href="./articlelistpage" target="_self">媒体南医</a></li>
+        <li><a href="./articlelistpage" target="_self">电子院刊</a></li>
+       <li><a href="./articlelistpage" target="_self">南医图库</a></li>
+        <li><a href="./articlelistpage" target="_self">南医视频</a></li>
+        <!--<li class="nobline"><a href="/xwzx/myzj/" target="_self">名医传记</a></li>-->
+    </ul>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_nyxs"><a href="" target="_self">院务管理</a></div>
+    <ul class="nav-item-list">
+        <li><a href="javascript:;">招生/进修</a></li>
+        <!--li><a href="#">招生/进修</a></li-->
+        <li><a href="jxky.html" target="_self">科研管理</a></li>
+        <li class="nobline"><a href="javascript:;" target="_self">学生管理</a></li>
+ <li class="nobline"><a href="index1.html" target="_self">财务管理</a></li>
+<li class="nobline"><a href="javascript:;" target="_self">医师考学</a></li>
+    </ul>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_nygy"><a href="nygy/Index.html" target="_self">南医公益</a></div>
+    <ul class="nav-item-list">
+        <li><a href="/nygy/gyhd" target="_self">公益活动</a></li>
+        <li><a href="javascript:;" target="_self">骆老博客</a></li>
+      <li><a href="/nygy/dxjz" target="_self">大型救灾</a></li>
+        <li class="nobline"><a href="/nygy/ylbf" target="_self">医疗帮扶</a></li>
+    </ul>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_job"><a href="job/Index.html" target="_self">人才招聘</a></div>
+
+    <ul class="nav-item-list">
+        <li><a href="/nyjy/" target="_self">导航</a></li>
+        <li><a href="/nyjy/sy" target="_self">馨园</a></li>
+        <li><a href="/nyjy/yz" target="_self">驿站</a></li>
+        <li><a href="/nyjy/yy" target="_self">影院</a></li>
+        <li><a href="/nyjy/st" target="_self">社团</a></li>
+        <li><a href="/nyjy/hd" target="_self">活动</a></li>
+        <li class="nobline"><a href="/nyjy/xz" target="_self">下载</a></li>
+    </ul>
+
+</li>
+
+    </ul>
+  </div>
+  <!--导航栏部分-->
+  <div class="clearfix"> <div class="side-nav side-nav2 fl">
+    <ul class="side-navlist">
+        <li class="side-nav-item">
+            <div class="side-navlist-tit">
+                <h3><a href="javascript:;">南方医院学科导航</a></h3>                
+            </div>
+   <div class="side-navlist-con">
+    <div class="clearfix">
+        <div class="bdbox fl">
+            <dl class="dnav-item">
+                <dt><a href="">内科</a></dt>
+                <dd>
+                    <span><a href="javascript:;">消化内科</a></span>
+                    <span><a href="ks/nk/xhnk/Index.html">内分泌代谢科</a></span>
+                    <span><a href="javascript:;">肿瘤科</a></span>
+                    <span><a href="javascript:;">风湿免疫科</a></span>
+                    <span><a href="javascript:;">心血管内科</a></span>
+                    <span><a href="javascript:;">呼吸内科</a></span>
+                    <span><a href="/ks/nk/hxsmzx">呼吸睡眠中心</a></span> 
+                    <span><a href="javascript:;">肾内科</a></span>
+                    <span><a href="javascript:;">血液科</a></span>
+                    <span><a href="javascript:;">神经内科</a></span>
+                </dd>
+            </dl>
+        </div>
+        <div class="bdbox fl">
+            <dl class="dnav-item">
+                <dt><a href="">外科</a></dt>
+                <dd>
+                    <span><a href="javascript:;">脊柱骨科</a></span>
+                    <span><a href="javascript:;">关节与骨病外科</a></span>
+                    <span><a href="javascript:;">胸外科</a></span>
+                    <span><a href="index1.html">普外科</a></span>
+                    <span><a href="javascript:;">肝胆外科</a></span>
+                    <span><a href="javascript:;">创伤骨科</a></span>
+                    <span><a href="javascript:;">泌尿外科</a></span>
+                    <span><a href="javascript:;">肾移植科</a></span>
+                    <span><a href="javascript:;">神经外科</a></span>
+                    <span><a href="javascript:;">血管外科</a></span>
+                    <span><a href="javascript:;">介入治疗科</a></span>
+                    <span><a href="javascript:;">心血管外科</a></span>
+                </dd>
+            </dl>
+        </div>
+        <div class="bdbox fl">
+            <dl class="dnav-item dnav2">
+                <dt><a href="">专科</a></dt>
+                <dd>
+                    <span><a href="javascript:;">妇产科</a></span>
+                    <span><a href="javascript:;">儿科</a></span>
+                    <span><a href="javascript:;">新生儿科</a></span>
+                    <span><a href="javascript:;">耳鼻喉科</a></span>
+                    <span><a href="javascript:;">口腔科</a></span>
+                    <span><a href="javascript:;">肛肠科</a></span>
+                    <span><a href="javascript:;">乳腺中心</a></span>
+                    <span><a href="javascript:;">营养科</a></span>
+                    <span><a href="javascript:;">烧伤科</a></span>
+                    <span><a href="javascript:;">整形美容外科 </a></span>
+                    <span><a href="javascript:;">中医科</a></span>
+                    <span><a href="javascript:;">眼科</a></span>
+                    <span><a href="javascript:;">皮肤科</a></span>
+                    <span><a href="javascript:;">感染内科</a></span>
+                    <span><a href="javascript:;">康复医学科 </a></span>
+                    <span><a href="javascript:;">放疗科</a></span>
+                    <span><a href="ks/zk/hqk.html">惠侨医疗中心</a></span>
+                    <span><a href="javascript:;">急诊科</a></span>
+                    <span><a href="javascript:;">麻醉科</a></span>
+                    <span><a href="javascript:;">核医学科</a></span>
+                    <span><a href="javascript:;">输血科</a></span>
+                    <span><a href="ks/zk/jkglzx.html">健康管理科</a></span>
+                    <span><a href="javascript:;">心理门诊</a></span>
+  <span><a href="javascript:;">重症医学科</a></span>
+        <span><a href="javascript:;">肝脏肿瘤中心</a></span>
+ <span><a href="javascript:;">古中医科</a></span>
+                </dd>
+            </dl>
+        </div>
+        <div class="bdbox fl">
+            <dl class="dnav-item">
+                <dt><a href="">辅助科</a></dt>
+                <dd>
+                    <span><a href="javascript:;">影像诊断科</a></span>
+                    <span><a href="javascript:;">超声科</a></span>
+                    <span><a href="javascript:;">病理科</a></span>
+                    <span><a href="javascript:;">检验医学科</a></span>
+                    <span><a href="javascript:;">护理部</a></span>
+                </dd>
+            </dl>
+        </div>
+ 
+    </div>
+</div>
+        </li>
+        <li class="side-nav-item">
+            <div class="side-navlist-tit">
+                <h3 style="font-size:14px; line-height:22px;"><a href="javascript:;">器官衰竭防治国家重点实验室</a></h3>
+            </div>
+        </li>
+        <li class="side-nav-item">
+            <div class="side-navlist-tit">
+                <h3 style="font-size:14px; line-height:22px;"><a href="javascript:;">国家肾脏病临床医学研究中心</a></h3>
+            </div>
+        </li>
+        <li class="side-nav-item">
+            <div class="side-navlist-tit">
+                <h3><a href="javascript:;">广东省肾脏病研究所</a></h3>
+            </div>
+        </li>
+        <li class="side-nav-item">
+            <div class="side-navlist-tit">
+                <h3><a href="ks/zk/hqk.html">惠侨医疗中心</a></h3>
+            </div>
+        </li>
+        <li class="side-nav-item">
+            <div class="side-navlist-tit">
+                <h3><a href="javascript:;">增城分院</a>&nbsp;&nbsp;&nbsp;<a href="">知识城分院</a></h3>
+            </div>
+        </li>
+        <li class="side-nav-item">
+				<div class="side-navlist-tit">
+					<h3><a href="javascript:;">国家临床重点专科 [14个]</a></h3>
+					<dl class="zdks_nav">
+						<dd><a href="javascript:;">消化内科</a></dd>
+						<dd><a href="javascript:;">神经外科</a></dd>						<dd>
+							<a class="gk_hover" href="javascript:;">骨科</a>
+							<div class="gk_hover_nav" style="display:none;"><b><a href="">骨科</a></b>         <a href="javascript:;">脊柱骨科</a>           <a href="javascript:;">关节与骨病外科</a>          <a href="javascript:;">创伤骨科</a>
+							</div>
+						</dd>						<dd><a href="javascript:;">感染内科</a></dd>
+						<dd><a href="index1.html">普通外科</a></dd>
+						<dd><a href="javascript:;">妇科</a></dd>
+						<dd><a href="javascript:;">血液内科</a></dd>
+						<dd><a href="javascript:;">整形外科</a></dd>
+						<dd><a href="javascript:;">产科</a></dd>
+						<dd><a href="javascript:;">肾内科</a></dd>
+						<dd><a href="javascript:;">肿瘤科</a></dd>
+						<dd><a href="javascript:;">口腔科</a></dd>
+						<dd><a href="javascript:;">病理科</a></dd>
+						<dd><a href="javascript:;">检验科</a></dd>
+					</dl>
+				</div>
+			</li>
+    </ul>
+</div>  
+	<script type="text/javascript">
+		$(document).ready(function(e) {
+			$(".gk_hover").mouseenter(
+				function(){
+					$(".gk_hover_nav").show();
+				}
+			)
+			$(".gk_hover_nav").mouseleave(
+				function(){
+					$(this).hide();
+				}
+			)
+		});
+	</script>
+    <div class="box640 mrt20 mrl20 fl "> 
+      <!--焦点图-->
+      
+      <div class="slides">
+        <div id="slides" class="slides">
+          <ul class="slides-con">
+            
+            <li>
+              <div class="img"><a href="javascript:;"><img src="Upload/201912/6371243843200113535871684.jpg" alt=""></a></div>
+              <div class="translucent"></div>
+              <div class="txt"><a href="javascript:;">南方医院党委领导班子召开“不忘初心、牢记使命”专题民主生活会</a></div>
+            </li>
+            
+            <li>
+              <div class="img"><a href="javascript:;"><img src="Upload/201908/6370208231513058795212114.jpg" alt=""></a></div>
+              <div class="translucent"></div>
+              <div class="txt"><a href="javascript:;">广东隆重举办庆祝中国医师节暨骆抗先同志先进事迹报告会</a></div>
+            </li>
+            
+            <li>
+              <div class="img"><a href="javascript:;"><img src="Upload/201912/6371303140838644454112088.jpg" alt=""></a></div>
+              <div class="translucent"></div>
+              <div class="txt"><a href="javascript:;">南方医科大学麻醉学院暨南方医科大学麻醉学专业委员会正式成立</a></div>
+            </li>
+            
+          </ul>
+        </div>
+        <div id="slides-nav">
+          <ul class="slides-nav">
+            
+            <li>1</li>
+            
+            <li>2</li>
+            
+            <li>3</li>
+            
+          </ul>
+        </div>
+      </div>
+      <!--焦点图 end--> 
+      <!--图标快捷按钮-->
+      <div class="function_btns">
+        <div class="function_btns_list"> <div class="function_btns_list">
+				<span><a href="hzfw/a_104803.html" class="fbtn_yygh"><i>预约挂号</i></a></span>
+				<span><a href="ks/zk/jkglzx.html" class="fbtn_znfz"><i>健康体检</i></a></span>
+				<span><a href="ycyx/Index.html" class="fbtn_yyjc"><i>远程会诊</i></a></span>
+				<span><a href="hzfw/k1.html" class="fbtn_jyzn"><i>就医指南</i></a></span>
+				<span><a href="ybfw/a_1016011.html" class="fbtn_ybxx"><i>医保信息</i></a></span>
+				<span><a href="hzfw/k8.html" class="fbtn_txfw"><i>特需服务</i></a></span>
+			</div> </div>
+      </div>
+      
+      <!--图标快捷按钮 end--> 
+    </div>
+    
+    <div class="box290 fr mrt20"> 
+    <div class="slide-img">
+    <a href="javascript:;" target="_self" class="prev"></a>
+    <a href="javascript:;" target="_self" class="next"></a>
+    <ul class="slide-imglist">
+        <li><a href="index1.html">
+            <img src="html/images/lxyz_banner.jpg" alt=""></a></li>
+        <li><a href="">
+            <img src="html/images/pic/img_pic4.jpg" alt=""></a></li>
+        <li style="display: none;"><a href="">
+            <img src="html/images/pic/img_pic5.jpg" alt=""></a></li>
+    </ul>
+</div>
+
+        <!--医院要闻-->
+        <div class="column tabbox tb1"> <div class="col-tit">
+    <ul class="tabnav tbn1">
+        <li class="curr"><a href="xwzx/Index1.html">医院资讯</a></li>
+       <li class="curr"><a href="/job/">人事招聘</a></li>
+    </ul>
+<span class="rbtns"><a href="javascript:;">视频</a></span>
+</div>
+          <div class="col-con tabcon">
+            <ul class="txtlist tl1 tabitem">
+              
+                <li><span class="tl_title"><a href="javascript:;">泌尿外科第二次演练疑似新冠肺炎病人应急处理</a></span><i class="tl_time">8天前</i></li>
+            
+                <li><span class="tl_title"><a href="javascript:;">南方医院消化内科成立“微生态诊疗中心”</a></span><i class="tl_time">8天前</i></li>
+            
+                <li><span class="tl_title"><a href="javascript:;">我院郭亚兵副主任接受日本共同社采访</a></span><i class="tl_time">8天前</i></li>
+            
+                <li><span class="tl_title"><a href="javascript:;">我院支援韶关粤北第二人民医院医疗队出征</a></span><i class="tl_time">8天前</i></li>
+            
+                <li><span class="tl_title"><a href="javascript:;">南方医院参加广东省支援荆州网上医疗队</a></span><i class="tl_time">8天前</i></li>
+            
+            </ul>
+          </div>
+        </div>
+        <!--医院要闻 end--> 
+        <div class="boxh70 mrt15"> 
+        <div class="slide-img">
+    <a href="javascript:;" target="_self" class="prev"></a>
+    <a href="javascript:;" target="_self" class="next"></a>
+    <ul class="slide-imglist">
+        <li><a href="">
+            <img src="html/images/pic/img_pic5.jpg" alt=""></a></li>
+        <li style="display: none;"><a href="">
+            <img src="html/images/pic/img_pic4.jpg" alt=""></a></li>
+    </ul>
+</div>
+ 
+        </div>
+    <!--最新公告--> 
+      <div class="column col1 col_gg col_gg2"> 
+     
+
+
+                <div class="col-tit control yygg-btn">
+                    <strong class="tbn1 on"><a href="xwzx/yygg/simplelist1.html">医院公告</a></strong>
+                    <strong class="tbn1"><a href="javascript:;">招聘公告</a></strong>
+                </div>
+        <div class="col-con yygg-list">
+          <ul class="txtlist tl2 show">
+            
+            <li><span class="txt fl"><a href="xwzx/yygg/a_1064181.html">南方医科大学南方医院征集荧光定量PCR仪及配套设备供应商公告（变更）</a></span><span class="time fr">昨天</span></li>
+            
+            <li><span class="txt fl"><a href="xwzx/yygg/a_1064171.html">南方医科大学南方医院增城分院征集生物安全柜供应商公告</a></span><span class="time fr">昨天</span></li>
+            
+            <li><span class="txt fl"><a href="xwzx/yygg/a_1064161.html">南方医科大学南方医院增城分院 负压隔离舱和红外线体温筛查仪紧急采购项目的公告</a></span><span class="time fr">昨天</span></li>
+            
+            <li><span class="txt fl"><a href="javascript:;">《南方医科大学南方医院核技术利用扩建项目环境影响报告表》 全本公示</a></span><span class="time fr">昨天</span></li>
+            
+            <li><span class="txt fl"><a href="javascript:;">南方医科大学南方医院经济适用房周边高压电缆迁移工程（电气部分）竞争性谈判招标公告 </a></span><span class="time fr">昨天</span></li>
+            
+          </ul>
+            <ul class="txtlist tl2">
+            
+                <li><span class="txt fl"><a href="javascript:;">南方医科大学南方医院2020年岗位招聘需求</a></span><span class="time fr">5月前</span></li>
+            
+                <li><span class="txt fl"><a href="javascript:;">南方医科大学南方医院合同工招聘启事</a></span><span class="time fr">8月前</span></li>
+            
+                <li><span class="txt fl"><a href="javascript:;">南方医科大学南方医院临床研究中心招聘启事</a></span><span class="time fr">8月前</span></li>
+            
+                <li><span class="txt fl"><a href="javascript:;">南方医科大学南方医院泰成逸园分院2020年招聘公告</a></span><span class="time fr">8月前</span></li>
+            
+                <li><span class="txt fl"><a href="javascript:;">南方医院耳鼻喉科招聘科研助理</a></span><span class="time fr">1月前</span></li>
+            
+            </ul>
+        </div>
+        </div>
+        <!--最新公告 end -->       
+    </div>
+  </div>    
+<!--2016.08.13修改-->
+<div class="mdt" style="display:none;">
+	<div class="mdt_jj">
+		<h2>MDT让治病更精准</h2>
+		<ul>
+			<li class="mdt_jj_left">
+                <div class="ih-item circle effect6 scale_up mdt_jgs">
+                    <a href="javascript:void(0);">
+                        <div class="img"><img src="html/images/mdtb2.png" alt="img"></div>
+                        <div class="info"></div>
+                    </a>
+                </div>
+                <div class="ih-item circle effect6 scale_up mdt_jg">
+                    <a href="javascript:void(0);">
+                        <div class="img"><img src="html/images/mdtb3.png" alt="img"></div>
+                        <div class="info info1"></div>
+                    </a>
+                </div>
+                <div class="ih-item circle effect6 scale_up">
+                        <a href="javascript:void(0);">
+                            <div class="img"><img src="html/images/mdtb4.png" alt="img"></div>
+                            <div class="info info2"></div>
+                        </a>
+                </div>
+			</li>
+			<li class="mdt_jj_right">
+                				<h3>多学科协作诊疗（MDT）简介</h3>
+				<p>多学科协作诊疗模式（Multi-disciplinary team，MDT），是指针对某种临床疾病，将医院内部相关科室的医生聚集，通过定期、定址的会议，汇集各科室的最新发展动态，并结合患者的疾病分期、身体状况和心理承受能力及其家庭经济状况,在权衡利弊后,制定出科学、合理、规范的最佳治疗方案...[<a href="">详细</a>]</p>
+				<a href="" class="mdt_yy">马上预约</a>
+			</li>
+		</ul>
+	</div>
+	<div class="mdt_article">
+		<h2>MDT精彩文章</h2>
+		<ul>
+		    <h3><a href="javascript:;">内科</a></h3>            
+            
+			<li class="mdt_article_first">
+				<a href="javascript:;"><img src="Picture.jpg"></a>
+				<p class="mdt_article_p">中共中央办公厅印发《关于进一步加强和改进舆论监督工作的意见》的通知</p>
+				<p class="mdt_article_span">中共中央办公厅印发《关于进一步加强和改进舆论监督工作的意见》的通知</p>
+			</li>
+            
+		</ul>
+		<ul class="mdt_article_interval">
+		    <h3><a href="javascript:;">外科</a></h3>            
+            
+		</ul>
+		<ul>
+		    <h3><a href="javascript:;">专科</a></h3>            
+            
+		</ul>
+	</div>
+</div>
+<!--2016.08.13修改 end-->
+  <div class="friend-link">
+    <p><strong>友情链接：</strong>
+      
+      <a href="javascript:;">南方医科大学</a>
+      
+      <a href="javascript:;">珠江医院</a>
+      
+      <a href="javascript:;">中西医结合医院</a>
+      
+      <a href="javascript:;">39健康网</a>
+      
+      <a href="javascript:;">好大夫在线</a>
+      
+      <a href="javascript:;">家庭医生在线</a>
+      
+      <a href="javascript:;">南医三院</a>
+      
+  </p></div>
+</div>
+<!--PubLog:IsIncludeFile-->
+<div class="footer-wrap">
+	<div class="footer">
+		<div class="ft-copy fl">
+           <p class="yy-line"><i class="arrow"></i><span>预约咨询</span><b>18806675481</b></p>
+			<p>地址：技术支持:<a style="color: #fff" href="javascript:;">39健康网</a></p>
+			<p>  &copy;</p> 
+		</div>
+		<ul class="fl ft-ewm">
+        	<li>
+            	<p><img src="html/images/ewm1.jpg"></p>
+                <p>微信订阅号</p>
+            </li>
+        	<li>
+            	<p><img src="html/images/ewm2.jpg"></p>
+                <p>微信服务号</p>
+            </li>
+        </ul>
+		<div class="ft-contact fr">
+            <ul class="ft-list fl">
+                <li><a href="aboutus/Index.html">关于我们</a></li>
+			    <li><a href="hzfw/jyzn/mzzn/a_1015541.html">联系我们</a></li>
+			    <li><a href="">加入收藏</a></li>
+			    <li><a href="job/Index.html">人才招聘</a></li>
+			    <li><a href="hzfw/jyzn/mzzn/a_1023251.html">投诉途径</a></li>
+            </ul>
+		</div>
+	</div>
+</div>
+<div class="right-tools">
+	<ul class="rt-list">
+		<li class="ewm">
+			<a href="javascript:void(0);" target="_self" class="png">
+				<div class="ewm_sbox">
+					<i></i>
+					<span>微信官号<br>
+						<img src="html/images/pic/img_pic1.jpg" width="117" height="117" alt=""><br>
+						扫一扫关注南方医院</span>
+				</div>
+			</a>
+		</li>
+		 <li class="service"><a href="hzfw/Index.html" class="png"></a></li> 
+		<li class="gohome"><a href="" class="png"></a></li>
+		<li class="gotop"><a href="javascript:void(0);" target="_self" class="png"></a></li>
+	</ul>
+</div>
+
+<script type="text/javascript" src="html/js/Marquee.js"></script>
+<script type="text/javascript" src="html/js/jcarousellite.js"></script>
+<script type="text/javascript" src="html/js/common.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var col = document.location.pathname.split('/')[1];
+        $('#topMainNav').find("li a").each(function () {
+
+            if (col == "search") {
+                $("#nav_home").addClass('on');
+                return false;
+            }
+            if ($(this).attr('href').indexOf(col) > 0) {
+                $("#topMainNav").find('div').removeClass('on');
+                $(this).parent('div').addClass('on');
+                return false;
+            };
+        });
+
+        $("body a").click(function () {
+            var href = $(this).attr("href");
+            var host = window.location.host;
+            if (href.indexOf('http') != -1) {
+                if (href.indexOf(host) == -1) {
+                    event.returnValue = confirm("您是否要离开本站点，跳转到其它页面吗？");
+                }
+            }
+        });
+    });
+</script>
+
+<div style="margin:0px auto; text-align:center;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1255838524'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1255838524%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fdf36900115c9078dccb665ac42a36e49' type='text/javascript'%3E%3C/script%3E"));
+</script> 
+<script type="text/javascript">
+        $('#slides').kxbdSuperMarquee({
+            distance: 640,
+            time: 4,
+            navId: '#slides-nav',
+            direction: 'left'
+        });
+        $('#roll-ad').kxbdSuperMarquee({
+            isEqual: false,
+            distance: 56,
+            time: 5, /*单位为秒*/
+            duration: 50, /*缓动效果，单次移动时间，越小速度越快，为0时无缓动效果*/
+            btnGo: { up: '#up', down: '#down' },
+            direction: 'up'
+        });
+        $(document).ready(function () {
+            $('#tsyl-roll').jCarouselLite({
+                btnPrev: '#tsyl-down',
+                btnNext: '#tsyl-up',
+                circular: false,
+                scroll: 8,
+                visible: 8,
+                vertical: true
+            });
+        });
+
+        //首页添加招聘公告
+        $(".yygg-btn .tbn1 ").mouseenter(function () {
+            $(this).addClass("on").siblings().removeClass("on");
+            $(".yygg-list .tl2").eq($(this).index()).addClass("show").siblings().removeClass("show");
+        });
+	</script>
+	<script  src="js/index.js" type="text/javascript" charset="utf-8"></script>
+</body>
 </html>

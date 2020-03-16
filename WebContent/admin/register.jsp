@@ -74,16 +74,17 @@ input.error:hover {
 				var value = passwordDom.value;
 				var regex = /.{6,}/;
 				if (!regex.test(value)) {
-					$("#password").removeClass("error")
-					//this.style.border = "1px solid deeppink!important";
+					
+					this.style.border = "1px solid deeppink!important";
 					//配置一个透明的询问框
-					layer.msg("密码必须是5个字符以上", {
+					layer.msg("输入密码5位数以上", {
 						time : 3000, //10s后自动关闭
 						offset : 't'
 					})
 				} else {
-					$("#password").addClass("error")
-					//this.style.border = "1px solid #DCDEE0!important";
+					
+					this.style.border = "1px solid #DCDEE0!important";
+					
 				}
 			}
 			repasswordDom.oninput = function() {
@@ -92,12 +93,17 @@ input.error:hover {
 						&& usernameDom.value.length >= 5) {
 					$("#repassword").removeClass("error")
 					button.disabled = false;
+					//配置一个透明的询问框
+					layer.msg("请确认注册", {
+						time : 30000, //10s后自动关闭
+						offset : 't'
+					})
 					//this.style.border = "1px solid #DCDEE0!important";
 				} else {
 					//this.style.border = "1px solid deeppink!important";
 					$("#repassword").addClass("error")
 					//配置一个透明的询问框
-					layer.msg("输入密码不一致", {
+					layer.msg("请重新确认密码", {
 						time : 3000, //10s后自动关闭
 						offset : 't'
 					})

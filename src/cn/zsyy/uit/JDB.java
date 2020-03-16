@@ -79,65 +79,59 @@ public class JDB {
 		// 把集合到进去
 		String fieldStr = "";
 		String valueStr = "";
-		// 返回此映射中的键-值映射关系数并且获取map集合中的大小
-		Object[] valueObjs = new Object[dataItem.size()];
-		int i = 0;
+		Object[] valueObjs =new Object[dataItem.size()];
+		int i=0;
 		for (String key : dataItem.keySet()) {
 			fieldStr = fieldStr + key + ",";
-			valueStr = valueStr + "?" + ",";
-			valueObjs[i] = dataItem.get(key);
+			valueStr = valueStr + "?"+",";
+			valueObjs[i]=dataItem.get(key);
 			i++;
-
 		}
-		fieldStr = fieldStr.substring(0, fieldStr.length() - 1);
-		valueStr = valueStr.substring(0, valueStr.length() - 1);
-		String sqlStr = "insert into " + tableName + " (" + fieldStr + ") values (" + valueStr + ")";
-
+		fieldStr = fieldStr.substring(0, fieldStr.length()-1);
+		valueStr = valueStr.substring(0, valueStr.length()-1);
+		//System.out.println(fieldStr);
+		//System.out.println(valueObjs);
+		String sqlStr = "insert into "+tableName+" ("+  fieldStr+ ") values ("+valueStr+")";
 		int exe = execute(sqlStr,valueObjs);
-
+		//System.out.println(exe);
 		return exe;
 
 	}
 
-	// query方法，通过输入查询语句自动生成hashmao对象组合的数组
-	public static ArrayList<HashMap<String, Object>> query(String sql) {
-		ResultSet result = null;
-		Connection conn = null;
-		PreparedStatement pStatement = null;
-		ArrayList<HashMap<String, Object>> temArray = new ArrayList<HashMap<String, Object>>();
-
-		try {
-			conn = JDBCutil.con();
-			pStatement = conn.prepareStatement(sql);
-			System.out.println(pStatement.toString());
-			// 执行查询语句，执行后返回代表查询结果的ResultSet对象
-			result = pStatement.executeQuery();
-
-			ResultSetMetaData metaData = result.getMetaData();
-			int columnCount = metaData.getColumnCount();
-
-			while (result.next()) {
-				HashMap<String, Object> hashMap = new HashMap<>();
-				for (int i = 1; i <= columnCount; i++) {
-					hashMap.put(metaData.getCatalogName(i), result.getObject(i));
-
+	//query方法，通过输入查询语句自动生成  hashmap对象组合的数组
+		public static ArrayList< HashMap<String, Object> > query(String sql) {
+			ResultSet result = null;
+			Connection conn = null;
+			PreparedStatement pStatement = null;
+			ArrayList< HashMap<String, Object> > tempArray = new ArrayList<HashMap<String, Object>>();
+			try {
+				conn = JDBCutil.con();
+				pStatement = conn.prepareStatement(sql);
+				System.out.println(pStatement.toString());
+				result = pStatement.executeQuery();
+				
+				ResultSetMetaData metaData = result.getMetaData();
+				int columnCount = metaData.getColumnCount();
+				
+				while (result.next()) {
+					HashMap<String, Object> hashMap = new HashMap<>();
+					for(int i=1;i<=columnCount;i++) {
+						hashMap.put(metaData.getColumnName(i), result.getObject(i));
+					}
+					tempArray.add(hashMap);
+					
 				}
-				temArray.add(hashMap);
-
+				return tempArray;
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+				JDBCutil.close(conn);
+			}finally {
+				JDBCutil.close(conn);
 			}
-
-			return temArray;
-
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			JDBCutil.close(conn);
-		} finally {
-			JDBCutil.close(conn);
+			return tempArray;
+			
 		}
-		return temArray;
-
-	}
 
 	public static ArrayList<HashMap<String, Object>> query(String sql, Object[] params) {
 		ResultSet result = null;
