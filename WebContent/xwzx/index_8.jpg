@@ -1,0 +1,650 @@
+ 
+<!doctype html>
+<html>
+<head>
+    <title>新闻中心_南方医科大学第一附属医院</title>
+    <meta name="Keywords" content="新闻中心-南方医科大学南方医院" />
+    <meta name="Description" content="南方医院在口腔科,口腔医学,内科,消化病,外科学,创伤骨科等学科都拥有国内最优秀的人才储备" />
+    <!--PubLog:IsIncludeFile-->
+<meta charset="utf-8">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<link rel="stylesheet" href="/html/css/nfyy_base.css">
+<link rel="stylesheet" href="/html/css/nfyy_news.css" />
+<script type="text/javascript" src="/html/js/jquery.min.js"></script>
+<base target="_blank" />
+
+</head>
+
+<body> 
+     <!--PubLog:IsIncludeFile-->
+<div class="top-bar-wrap">
+<div class="top-bar clearfix">
+<div class="tb-tools fr">
+	<span class="tb-com tb-pop tb-wx fl">
+		<span class="tb-pop-tit">
+			<a href="javascript:;" target="_self"><font>官方微信</font><i class="arrow"></i></a>
+		</span>
+		<em></em>
+		<span class="tb-pop-con">
+			南方医院微信官号
+			<br />
+			<a href="#"><img src="/html/images/pic/img_pic1.jpg" width="117" height="117" alt=""></a>
+			<br />
+			扫一扫关注南方医院
+		</span>
+	</span>
+	<span class="tb-com fl">
+		<span class="tb-wb">
+			<span>官方微博</span>
+			<a href="#" class="sina-wb"></a>
+			<a href="#" class="qq-wb"></a>	
+		</span>
+	</span>
+	<span class="tb-com fl">
+		<a href="#">南方医院</a>
+	</span>
+	<span class="tb-com fl">
+		<a href="http://hql.nfyy.com/English/Home/2013-03-05/156.html">English</a>
+	</span>
+</div>
+</div>
+</div>
+    <div class="main">
+        <div class="header clearfix">
+    <div class="logo fl"></div>
+<div class="person-center fr"><a href="#">个人中心</a></div>
+<div class="search-bar fr">
+<span class="search-keyword">
+<script type="text/javascript">
+var hotTopKeywords=["惠侨楼","消化内镜","侯凡凡"];
+   for (var i = 0; i < hotTopKeywords.length;i++)
+        {
+            document.write('<a href="/search/?keyword=' + encodeURI(hotTopKeywords[i]) + '">' + hotTopKeywords[i] + '</a>')
+        }
+</script>  
+</span>
+<form action="/search/">
+	<input type="text" class="search-txt" value="侯凡凡院士" name="keyword" />
+	<input type="submit" value="" class="search-btn"  />
+	</form>	
+</div>
+</div>
+        <!--导航栏部分-->
+        <div class="nav" id="topMainNav">
+            <ul class="nav-bar clearfix">
+                <li class="nav-item home">
+    <div class="nav-item-tit" id="nav_home"><a href="/" target="_self">首页 </a></div>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_yyjs"><a href="/aboutus/" target="_self">医院介绍</a></div>
+</li>
+
+                <li class="nav-item">
+    <div class="nav-item-tit" id="nav_hzfw"><a href="/hzfw/"  target="_self">服务导航</a></div>
+        <ul class="nav-item-list">
+        <li><a href="/hzfw/?id=k1" target="_self">就医指南</a></li>
+        <li><a href="/hzfw/?id=k2" target="_self">智能分诊</a></li>
+        <li><a href="http://yy.dept.nfyy.com/appointment/appointmentIndex.htm" target="_self">预约挂号</a></li>
+    </ul>
+<!-- 
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_jkjy"><a href="/yxzd/"  target="_self">医学指导</a></div>
+    <ul class="nav-item-list">
+        <li><a href="/yxzd/yxcs/" target="_self">医学常识</a></li>
+        <li><a href="/yxzd/yfbj/" target="_self">预防保健</a></li>
+        <li><a href="/yxzd/jbgl/" target="_self">疾病管理</a></li>
+        <li><a href="/yxzd/yyzd/" target="_self">用药指导</a></li>
+        <li><a href="/yxzd/kfzd/" target="_self">康复指导</a></li>
+        <li class="nobline"><a href="/yxzd/jkft/" target="_self">健康访谈</a></li>
+    </ul>
+-->
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_mymk"><a href="/mymk/" target="_self">名医名科</a></div>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_xwzx"><a href="/xwzx/" target="_self">新闻中心</a></div>
+    <ul class="nav-item-list">
+       <!--  <li><a href="/xwzx/mzdt/simpleList.html" target="_self">门诊动态</a></li>-->
+        <li><a href="/xwzx/yygg/simpleList.html" target="_self">医院公告</a></li>
+        <li><a href="/xwzx/yyxw" target="_self">医院新闻</a></li>
+        <li><a href="/xwzx/mtny" target="_self">媒体南医</a></li>
+        <!--<li><a href="/xwzx/dzyk" target="_self">电子院刊</a></li>-->
+        <!--<li><a href="/xwzx/nytk" target="_self">南医图库</a></li>>-->
+        <li><a href="/xwzx/nyyx" target="_self">南医视频</a></li>
+        <!--<li class="nobline"><a href="/xwzx/myzj/" target="_self">名医传记</a></li>-->
+    </ul>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_nyxs"><a href="#" target="_self">院务管理</a></div>
+    <ul class="nav-item-list">
+        <li><a href="http://61.155.106.48:4040/">招生/进修</a></li>
+        <!--li><a href="#">招生/进修</a></li-->
+        <li><a href="/jxky"  target="_self">科研管理</a></li>
+        <li class="nobline"><a href="http://web7.smu.edu.cn:8080/smuweb/" target="_self">学生管理</a></li>
+ <li class="nobline"><a href="http://cwc.dept.nfyy.com/index.htm" target="_self">财务管理</a></li>
+<li class="nobline"><a href="http://nfyy.misrobot.com/" target="_self">医师考学</a></li>
+    </ul>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_nygy"><a href="/nygy/" target="_self">南医公益</a></div>
+    <ul class="nav-item-list">
+        <!-- <li><a href="/nygy/gyhd" target="_self">公益活动</a></li>-->
+        <li><a href="http://blog.sina.com.cn/u/1264734122" target="_self">骆老博客</a></li>
+         <!--<li><a href="/nygy/dxjz" target="_self">大型救灾</a></li>
+        <li class="nobline"><a href="/nygy/ylbf" target="_self">医疗帮扶</a></li>-->
+    </ul>
+</li>
+<li class="nav-item">
+    <div class="nav-item-tit" id="nav_job"><a href="/job/" target="_self">人才招聘</a></div>
+<!-- 
+    <ul class="nav-item-list">
+        <li><a href="/nyjy/" target="_self">导航</a></li>
+        <li><a href="/nyjy/sy" target="_self">馨园</a></li>
+        <li><a href="/nyjy/yz" target="_self">驿站</a></li>
+        <li><a href="/nyjy/yy" target="_self">影院</a></li>
+        <li><a href="/nyjy/st" target="_self">社团</a></li>
+        <li><a href="/nyjy/hd" target="_self">活动</a></li>
+        <li class="nobline"><a href="/nyjy/xz" target="_self">下载</a></li>
+    </ul>
+-->
+</li>
+
+            </ul>
+        </div>
+        <script type="text/javascript">
+            $("#nav_jkjy").addClass("on");
+        </script>
+        <!--导航栏部分-->
+    </div>
+    <div class="main">
+        <div class="web_location">
+            <span class="location_text"><a href="/" title="首页">首页</a> - <a href="/xwzx/" title="新闻中心" target="_self">新闻中心</a></span>
+        </div>
+        <div class="web_mainbox">
+		<div class="web_left"> 
+			<div class="wrapper clearfix">
+				<div class="wrapL">
+					<!--焦点图-->
+					<div class="slides" >
+						<div id="slides" class="slides">
+							<ul class="slides-con">
+                                
+                                <li>
+									<div class="img"><a href="/xwzx/yyxw/a_104084.html"><img src="/Upload/201803/6365601365878920236643935.JPG" alt="肝病中心被评为“广东省学雷锋活动示范点”"></a></div>
+									<div class="translucent"></div>
+									<div class="txt"><a href="/xwzx/yyxw/a_104084.html">肝病中心被评为“广东省学雷锋活动示范点”</a></div>
+								</li> 
+                                
+                                <li>
+									<div class="img"><a href="/xwzx/yyxw/a_104048.html"><img src="/Upload/201803/6365552251085814759447949.JPG" alt="学校陈敏生书记到南方医院调研 "></a></div>
+									<div class="translucent"></div>
+									<div class="txt"><a href="/xwzx/yyxw/a_104048.html">学校陈敏生书记到南方医院调研 </a></div>
+								</li> 
+                                
+                                <li>
+									<div class="img"><a href="/xwzx/yyxw/a_102243.html"><img src="/Upload/201503/6356227004359243071478239.jpg" alt="南方医院启动新一轮“品管圈”培训"></a></div>
+									<div class="translucent"></div>
+									<div class="txt"><a href="/xwzx/yyxw/a_102243.html">南方医院启动新一轮“品管圈”培训</a></div>
+								</li> 
+                                 
+							</ul>
+						</div>
+						<div id="slides-nav">
+							<ul class="slides-nav">
+                                 
+								<li>1</li>
+                                
+								<li>2</li>
+                                
+								<li>3</li>
+                                
+							</ul>
+						</div>
+					</div>
+					<!--焦点图 end-->
+                    </div>
+                <div class="wrapR wrapR1">
+					
+             
+                        <h2><a href="/xwzx/yyxw/a_105517.html">南方医院胸外科饶栓副教授在Cell Research发表论著</a></h2>
+					    <p>[<a href="/xwzx/yyxw/a_105517.html">详细</a>]</p>                    
+					    <ul>
+                    						
+					</ul>
+				</div>
+			</div> 
+            <div class="wrapper clearfix"> 
+				<div class="wrapL wrapL2 clearfix">
+					<h2><a href="/xwzx/yyxw">医院新闻</a></h2>
+					<div class="clearfix">
+                        
+						<a href="/xwzx/yyxw/a_106394.html"><img src="" alt=""></a>
+						<div>
+							<h3><a href="/xwzx/yyxw/a_106394.html">泌尿外科第二次演练疑似新冠</a></h3>
+							<p>[<a href="/xwzx/yyxw/a_106394.html">详细</a>]</p>
+						</div>
+                        
+					</div>
+					<ul class="clearfix">
+                        
+                        	<li><span><a href="/xwzx/yyxw/a_106395.html">南方医院消化内科成立“微生态诊疗中心”</a></span><em>03-05</em></li>
+                        
+                        	<li><span><a href="/xwzx/yyxw/a_106393.html">我院郭亚兵副主任接受日本共同社采访</a></span><em>03-05</em></li>
+                        
+                        	<li><span><a href="/xwzx/yyxw/a_106391.html">我院支援韶关粤北第二人民医院医疗队出征</a></span><em>03-05</em></li>
+                         
+					</ul>
+				</div>
+                	<div class="wrapR wrapL2 clearfix">
+					<h2><a href="/xwzx/mtny">媒体南医</a></h2>
+					<div class="clearfix">
+                        
+						<a href="/xwzx/mtny/a_106073.html"><img src="" alt=""></a>
+						<div>
+							<h3><a href="/xwzx/mtny/a_106073.html">【揭秘】大咖身份首次曝光！</a></h3>
+							<p>[<a href="/xwzx/mtny/a_106073.html">详细</a>]</p>
+						</div>
+                        
+					</div>
+					<ul class="clearfix">
+                        
+                        	<li><span><a href="/xwzx/mtny/a_105133.html">呼吸与危重症医学科举办第21个世界哮喘日活动 </a></span><em>05-23</em></li>
+                        
+                        	<li><span><a href="/xwzx/mtny/a_105132.html">一临五四表彰大会暨团旗飘飘风采展示晚会圆满举办 </a></span><em>05-23</em></li>
+                        
+                        	<li><span><a href="/xwzx/mtny/a_105131.html">南方医院骨科医疗质量同质化建设活动成功举办 </a></span><em>05-23</em></li>
+                         
+					</ul>
+				</div> 
+			</div>
+             <div class="wrapper clearfix">
+	<div class="wrapL wrapL2 clearfix">
+		<h2><a href="/xwzx/nytk">南医图库</a></h2>
+		<div class="sp_box">
+            
+            	 <div class="shipin"><a href="/xwzx/nytk/a_101314.html"><img src="/Upload/44/101314/m/130543756999375000.jpg" alt=""><i></i><span>中科院院士、南方医科大学南方医院侯凡凡组照</span></a></div>
+            
+            	 <div class="shipin"><a href="/xwzx/nytk/a_101304.html"><img src="/Upload/44/101304/m/130543582887500000.JPG" alt=""><i></i><span>中国当代著名新闻摄影家“聚焦”南方医院</span></a></div>
+            
+ 		</div>
+	</div>
+	<div class="wrapR wrapL2 wrapL clearfix">
+		<h2><a href="/xwzx/nyyx">南医影像</a></h2>
+		<div class="sp_box">
+              
+            	 <div class="shipin"><a href="/xwzx/nyyx/a_103269.html"><img src="/Upload/201702/6362346388374697737785100.png" alt=""><i></i><span>不忘初心，砥砺前行——南方医院2016年度微视</span></a></div>
+            
+            	 <div class="shipin"><a href="/xwzx/nyyx/a_103268.html"><img src="/Upload/201702/6362346078618380686488262.jpg" alt=""><i></i><span>南方医院2017年春晚</span></a></div>
+            
+ 		</div>
+	</div>
+</div> 
+            
+
+
+            <div class="list_box list_box2 clearfix">
+			<div class="topTit"><h2>最新文章</h2>
+ <div class="tag"><a href="" class="on">综合</a>
+ <a href="/xwzx/mzdt/simpleList.html">门诊动态</a>
+ <a href="/xwzx/yygg/simpleList.html">医院公告</a>
+ <a href="/xwzx/yyxw">医院新闻</a>
+ <a href="/xwzx/mtny">媒体南医</a>
+ <a href="/xwzx/dzyk">电子院刊</a>
+ <a href="/xwzx/nytk">南医图库</a>
+ <a href="/xwzx/nyyx">南医影像</a>
+ <a href="/xwzx/myzj/">名医传记</a> 
+ </div></div>
+                <ul class="clearfix contUl"> 
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106288.html">南方医科大学南方医院门诊八九十楼和PET中心电缆主材采购项目成交通知书</a></h3>
+						<em>2020-01-10</em>
+						<p>[<a href="/xwzx/yygg/a_106288.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106286.html">南方医科大学南方医院2020年打印纸供应服务采购项目成交通知书</a></h3>
+						<em>2020-01-10</em>
+						<p>[<a href="/xwzx/yygg/a_106286.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106287.html">南方医院增城分院可吸收硬脑膜封合医用胶等耗材供应商征集公告</a></h3>
+						<em>2020-01-10</em>
+						<p>[<a href="/xwzx/yygg/a_106287.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106285.html">南方医院增城分院关于医疗设备检定校准服务项目竞争性磋商结果公示</a></h3>
+						<em>2020-01-09</em>
+						<p>[<a href="/xwzx/yygg/a_106285.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106284.html">南方医院增城分院关于碳十三呼气检测仪竞争性磋商结果公示</a></h3>
+						<em>2020-01-09</em>
+						<p>[<a href="/xwzx/yygg/a_106284.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106283.html">南方医科大学南方医院征集9台实验设备打包供应商公告</a></h3>
+						<em>2020-01-08</em>
+						<p>[<a href="/xwzx/yygg/a_106283.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106282.html">南方医科大学南方医院征集动态脑电监测仪供应商公告（重新挂网）</a></h3>
+						<em>2020-01-08</em>
+						<p>[<a href="/xwzx/yygg/a_106282.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106281.html">南方医院增城分院无影灯升级功能模块单一来源采购项目</a></h3>
+						<em>2020-01-08</em>
+						<p>[<a href="/xwzx/yygg/a_106281.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106280.html">南方医院增城分院白蛋白（免疫比浊法）检测试剂供应商征集公告（第二次挂网）</a></h3>
+						<em>2020-01-07</em>
+						<p>[<a href="/xwzx/yygg/a_106280.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    <li class="nopic clearfix">
+ 					<div class="cont clearfix">
+						<h3><b>
+                            
+                            <a href="/xwzx/yygg/simpleList.html">
+                             
+                            
+                            [医院公告]</a></b><a href="/xwzx/yygg/a_106279.html">南方医院增城分院经腋窝无充气完全腔镜甲状腺手术拉钩供应商征集公告（第二次挂网）</a></h3>
+						<em>2020-01-07</em>
+						<p>[<a href="/xwzx/yygg/a_106279.html">详细</a>]</p>
+						<span>
+                         
+						</span>
+					</div>
+				</li>
+                    
+	</ul>  
+<div class="web_page">
+            <a href="http://www.nfyy.com/xwzx/index_7.html" target="_self" class="prev">上一页</a>...<a href="http://www.nfyy.com/xwzx/index_4.html" target="_self">4</a><a href="http://www.nfyy.com/xwzx/index_5.html" target="_self">5</a><a href="http://www.nfyy.com/xwzx/index_6.html" target="_self">6</a><a href="http://www.nfyy.com/xwzx/index_7.html" target="_self">7</a><b>8</b><a href="http://www.nfyy.com/xwzx/index_9.html" target="_self">9</a><a href="http://www.nfyy.com/xwzx/index_10.html" target="_self">10</a><a href="http://www.nfyy.com/xwzx/index_11.html" target="_self">11</a><a href="http://www.nfyy.com/xwzx/index_12.html" target="_self">12</a>...<a href="http://www.nfyy.com/xwzx/index_9.html" class="next" target="_self">下一页</a><span  class="page_input">到第 <input type="text"  class="page_num"  name="page_num" id="txtPageNo3593"/> 页</span><input type="button" class="page_btn formbtns" name="page_btn" id="page_btn" value="确定" onclick="if(isNum($('#txtPageNo3593').val()) && $('#txtPageNo3593').val()*1>0){location.href=($('#txtPageNo3593').val()*1)>2?'http://www.nfyy.com/xwzx/index_'+$('#txtPageNo3593').val()+'.html':'http://www.nfyy.com/xwzx/index.html'}else{alert('请输入大于0的数字');$('#txtPageNo3593').val('');$('#txtPageNo3593').focus();}" />
+			 		</div>
+                </div>
+		</div>
+         <!--PubLog:IsIncludeFile-->	
+
+<div class="web_right">
+<div class="rbox">
+<span class="img_nav">
+	<a href="/hzfw/?id=k1" title="就医指南" class="n1" target="_self">就医指南</a>
+	<a href="/ybfw/a_101601.html" title="医保信息" class="n2" target="_self">医保信息</a>
+	<a href="http://yy.dept.nfyy.com/appointment/appointmentIndex.htm" title="预约挂号" class="n3">预约挂号</a>
+	<a href="http://tm.dept.nfyy.com/ycyx/" title="远程会诊" class="n7">远程会诊</a>
+	<a href="http://172.16.69.246:8099/Phyexa_merge/" title="健康体检" class="n6" target="_self">健康体检</a>
+	<a href="/hzfw/?id=k8" title="特需服务" class="n8" target="_self">特需服务</a>
+</span>
+</div><div class="rbox">
+    <div class="column col1 roll">
+        <div class="col-tit roll-nav control">
+            <strong>门诊动态</strong>
+            <a href="javascript:;" target="_self" class="up" id="up"></a>
+            <a href="javascript:;" target="_self" class="down" id="down"></a>
+        </div>
+        <div class="col-con roll-con" id="roll-ad">
+            <ul class="txtlist tl2">
+               <li><span class="txt fl"><a href="/xwzx/mzdt/a_101312.html">惠侨医疗中心门诊服务温馨告知</a></span></li><li><span class="txt fl"><a href="/xwzx/mzdt/a_101313.html">南方医院名医诊区简介及出诊安排</a></span></li><li><span class="txt fl"><a href="/xwzx/mzdt/a_101311.html">南方医院全预约服务模式宣传手册</a></span></li><li><span class="txt fl"><a href="/xwzx/mzdt/a_101310.html">“全预约”温馨告知您</a></span></li><li><span class="txt fl"><a href="/xwzx/mzdt/a_101303.html">门诊时间</a></span></li>
+            </ul>
+        </div>
+    </div>
+</div><div class="rbox rightPic"><a href="/nyjy/" target="_self"><img src="/html/images/pic/m.jpg" alt="" /></a></div>     
+<div class="rbox">
+    <div class="col-tit"><strong>最新公告</strong></div>
+    <ul class="news_rlist txtlist">
+          
+            	<li><a href="/xwzx/yygg/a_106418.html">南方医科大学南方医院征集荧光定量PCR仪及配套设备供应商公告（变更）</a></li>            	 
+                
+            	<li><a href="/xwzx/yygg/a_106417.html">南方医科大学南方医院增城分院征集生物安全柜供应商公告</a></li>            	 
+                
+            	<li><a href="/xwzx/yygg/a_106416.html">南方医科大学南方医院增城分院 负压隔离舱和红外线体温筛查仪紧急采购项目的公告</a></li>            	 
+                 
+    </ul>
+</div> 
+    <!--热点视频-->
+			<div class="rbox">
+				<div class="col-tit"><strong>热点视频</strong></div>
+				<div class="shipin"><a href="/xwzx/nyyx/a_101293.html"><img src="/Upload/201411/6355148268667187504266332.jpg" alt=""><i></i><span>腾讯大粤网专访南方医睡眠专家李涛平</span><em class="png"></em></a></div>
+			</div>
+			<!--热点视频 end-->
+     <div class="rbox hot-art">
+				<div class="col-tit"><strong>热点文章</strong></div>
+				<ul>
+     
+					<li><i>1</i><span><a href="/xwzx/yyxw/a_101174.html">胸心血管外科蔡开灿完成云南鲁甸抗震救灾任务凯旋</a></span></li> 
+		  
+					<li><i>2</i><span><a href="/xwzx/yyxw/a_101171.html">心内科举办广州复杂冠脉介入治疗研讨会</a></span></li> 
+		  
+					<li><i>3</i><span><a href="/xwzx/yyxw/a_101173.html">智发朝教授课题组在GIE上发表NOTES技术诊断不明原因腹水患者研究成果</a></span></li> 
+		  
+					<li><i>4</i><span><a href="/xwzx/yyxw/a_101172.html">智发朝教授当选为中国健康促进基金会消化内镜发展专项基金管理委员会副主任委员</a></span></li> 
+		  
+					<li><i>5</i><span><a href="/xwzx/yyxw/a_101175.html">谭万龙当选广东省泌尿生殖协会泌尿腹腔镜学分会首届委员会主任委员</a></span></li> 
+		 
+                    	</ul>
+			</div>
+                    <div class="rbox rightPic">	
+				<a href="/nygy/" target="_self"><img src="/html/images/pic/m2.jpg" alt="" /></a>
+			</div><!--热门标签-->
+<div class="rbox clearfix">
+    <div class="col-tit"><strong>热门标签</strong></div>
+    <div class="hotTag">
+<script type="text/javascript">
+var hotKeywords=["侯凡凡","糖尿病","微整形","谭万龙","李国新教授","地中海贫血","骆抗先","微创治疗","惠侨科","脂肪肝","侯金林教授","肝病","创伤骨科","薛耀明"];
+   for (var i = 0; i < hotKeywords.length;i++)
+        {
+            document.write('<a href="/search/?keyword=' + encodeURI(hotKeywords[i]) + '">' + hotKeywords[i] + '</a>')
+        }
+</script>     
+    </div>
+</div>
+<!--热门标签 end-->
+ </div>
+            </div>
+</div>
+            <!--PubLog:IsIncludeFile-->
+<div class="footer-wrap">
+	<div class="footer">
+		<div class="ft-copy fl">
+            <p class="yy-line"><i class="arrow"></i><span>预约咨询</span><b>020-61641888</b></p>
+			<p>地址：广州市广州大道北1838号&nbsp;&nbsp;邮编：510515&nbsp;&nbsp;技术支持:<a style="color: #fff" href="http://www.39.net">39健康网</a></p>
+			<p>Copyright &copy; 2019 南方医科大学南方医院 版权所有&nbsp;&nbsp;粤ICP备10048457号</p>
+		</div>
+		<ul class="fl ft-ewm">
+        	<li>
+            	<p><img src="/html/images/ewm1.jpg" /></p>
+                <p>微信订阅号</p>
+            </li>
+        	<li>
+            	<p><img src="/html/images/ewm2.jpg" /></p>
+                <p>微信服务号</p>
+            </li>
+        </ul>
+		<div class="ft-contact fr">
+            <ul class="ft-list fl">
+                <li><a href="/aboutus/">关于我们</a></li>
+			    <li><a href="/hzfw/jyzn/mzzn/a_101554.html">联系我们</a></li>
+			    <li><a href="#">加入收藏</a></li>
+			    <li><a href="/job/">人才招聘</a></li>
+			    <li><a href="/hzfw/jyzn/mzzn/a_102325.html">投诉途径</a></li>
+            </ul>
+		</div>
+	</div>
+</div>
+<div class="right-tools">
+	<ul class="rt-list">
+		<li class="ewm">
+			<a href="javascript:void(0);" target="_self" class="png">
+				<div class="ewm_sbox">
+					<i></i>
+					<span>南方医院微信官号<br />
+						<img src="/html/images/pic/img_pic1.jpg" width="117" height="117" alt=""><br />
+						扫一扫关注南方医院</span>
+				</div>
+			</a>
+		</li>
+		<li class="service"><a href="/hzfw/" class="png"></a></li>
+		<li class="gohome"><a href="/" class="png"></a></li>
+		<li class="gotop"><a href="javascript:void(0);" target="_self" class="png"></a></li>
+	</ul>
+</div>
+
+<script type="text/javascript" src="/html/js/Marquee.js"></script>
+<script type="text/javascript" src="/html/js/jcarousellite.js"></script>
+<script type="text/javascript" src="/html/js/common.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var col = document.location.pathname.split('/')[1];
+        $('#topMainNav').find("li a").each(function () {
+
+            if (col == "search") {
+                $("#nav_home").addClass('on');
+                return false;
+            }
+            if ($(this).attr('href').indexOf(col) > 0) {
+                $("#topMainNav").find('div').removeClass('on');
+                $(this).parent('div').addClass('on');
+                return false;
+            };
+        });
+
+        $("body a").click(function () {
+            var href = $(this).attr("href");
+            var host = window.location.host;
+            if (href.indexOf('http') != -1) {
+                if (href.indexOf(host) == -1) {
+                    event.returnValue = confirm("您是否要离开本站点，跳转到其它页面吗？");
+                }
+            }
+        });
+    });
+</script>
+
+<div style="width:300px;margin:2px auto; text-align:center;">
+    <script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/20/000/0000/60414543/CA200000000604145430001.js' type='text/javascript'%3E%3C/script%3E"));</script>
+	<div style="width:220px;margin:0 auto; padding:20px 0; float:right;">
+		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011102000028" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://www.beian.gov.cn/img/ghs.png" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤公网安备 44011102000028号</p></a>
+	</div>
+</div>
+<div style="margin:0px auto; text-align:center;">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cspan id='cnzz_stat_icon_1255838524'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s11.cnzz.com/z_stat.php%3Fid%3D1255838524%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<script type="text/javascript">
+    var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fdf36900115c9078dccb665ac42a36e49' type='text/javascript'%3E%3C/script%3E"));
+</script>
+        <script type="text/javascript">
+            $('#slides').kxbdSuperMarquee({
+                distance: 400,
+                time: 4,
+                navId: '#slides-nav',
+                direction: 'left'
+            });
+            $('#slides2').kxbdSuperMarquee({
+                distance: 360,
+                time: 4,
+                navId: '#slides2-nav',
+                direction: 'left'
+            });
+            $('#roll-ad').kxbdSuperMarquee({
+                isEqual: false,
+                distance: 78,
+                time: 5, /*单位为秒*/
+                duration: 50, /*缓动效果，单次移动时间，越小速度越快，为0时无缓动效果*/
+                btnGo: { up: '#up', down: '#down' },
+                direction: 'up'
+            });
+</script>
+</body>
+</html>

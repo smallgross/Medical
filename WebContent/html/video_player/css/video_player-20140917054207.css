@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+.video_player{ width:1200px; margin:0 auto;}
+.video_player h1{ font-family:'Microsoft YaHei'; font-size:24px; font-weight:normal; color:#666; line-height:28px; padding-bottom:15px;}
+.video_player_box{ background:#343434; overflow:hidden;zoom:1; padding:3px; position:relative; height:521px;}
+.video_player_box .show_player{ float:left; height:521px; width:855px; overflow:hidden; background:#000; display:inline;}
+.video_player_box .player_list_box{ float:right; width:336px; height:521px; background:#343434; position:relative;}
+.video_player_box .player_list_box .player_list_tit{ overflow:hidden; zoom:1; height:50px;}
+.video_player_box .player_list_box .player_list_tit h2{ float:left; height:50px; line-height:50px; padding:0 25px; text-align:center;font-family:'Microsoft YaHei'; font-size:18px; font-weight:normal; color:#fff; background:#464646;}
+.video_player_box .player_list_box .player_list{ overflow:hidden;height:470px; position:relative;}
+.video_player_box .player_list_box .player_list ul li{ width:100%; height:50px; overflow:hidden; background:#464646; margin-bottom:2px; cursor:pointer; vertical-align:bottom;}
+.video_player_box .player_list_box .player_list ul li strong{ display:block; padding:0 15px 0 40px; background:url(../images/player_list_icon2.png) no-repeat 18px center; height:50px; line-height:50px; font-family:'Microsoft YaHei';font-size:14px; color:#ccc; font-weight:normal; white-space:nowrap; overflow:hidden; width:270px;text-overflow:ellipsis;-webkit-text-overflow:ellipsis;}
+.video_player_box .player_list_box .player_list ul li span{ display:none;text-align:right;font-family:'Microsoft YaHei';font-size:12px; color:#999; height:24px; line-height:24px; padding:0 15px;}
+.video_player_box .player_list_box .player_list ul li.on{ background:#445a6a; height:81px; padding-top:25px;}
+.video_player_box .player_list_box .player_list ul li.on strong{ line-height:24px; height:48px; overflow:hidden;background:url(../images/player_list_icon1.png) no-repeat 18px 6px; color:#fff;white-space: normal;}
+.video_player_box .player_list_box .player_list ul li.on span{ display:block; }
+.video_player_box .player_list_box .player_list_ctrl{ position:absolute; background:url(../images/player_list_ctrl.png) no-repeat 0 0; width:20px; height:50px; overflow:hidden; top:235px; left:0; z-index:60;}
+.video_player_box .player_list_box .player_list_ctrl2{ background-position:-20px 0; left:-20px;}
+
+/* 滚动条的样式 */
+.scrollUp,.scrollHandle,.scrollDown{overflow:hidden; background:#bebebe;}
+.scrollBar{height:100%;width:7px;background-repeat:repeat-y;background:#343434;overflow:hidden;position:absolute;right:0;top:0;z-index:111;}
+.scrollUp,.scrollDown{height:0;cursor:pointer;position:absolute;left:0;cursor:pointer}
+.scrollUp,.scrollHandle,.scrollHandleDown,.scrollDown{width:7px;position:absolute;}
+.scrollHandle{height:109px;left:0;top:0;cursor:n-resize;}
+.scrollUp{top:0; display:none;}
+.scrollDown{bottom:0;display:none;}
+
+/*分享*/
+.weibo_fx{padding:18px 0 0 0; border-top:0; width:185px; overflow:hidden;zoom:1;}
+.weibo_fx a.bshareDiv div.buzzButton, .weibo_fx .bshare-custom .bshareDiv{ width:42px; white-space:nowrap; line-height:16px; margin-right:8px; font-family:"Microsoft YaHei"; color:#777; }
+.weibo_fx .bshare-custom{ width:130px;}
+.weibo_fx .bshare-custom a{ float:left;_margin-right:0;}
+.weibo_fx .sharebox .bshare-custom .bshare-sinaminiblog, .weibo_fx .sharebox .bshare-custom .bshare-qqmb, .weibo_fx .sharebox .bshare-custom .bshare-qzone, .weibo_fx .sharebox .bshare-custom .bshare-renren{margin:0 0 0 8px;*margin:0 0 0 8px;_margin:0 0 0 8px;}
+.weibo_fx .art_weixin em{ margin-top:0;margin-top:0\0;*margin-top:0;_margin-top:0;}

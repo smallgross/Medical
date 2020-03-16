@@ -1,0 +1,14 @@
+﻿document.writeln(" <!--bshare分享模块 开始-->");
+document.writeln(" <style>#bsPanelHolder {height: 0px;overflow: hidden;}a.bshareDiv div.buzzButton,.bshare-custom .bshareDiv{width:40px;overflow:hidden;}</style>");
+document.writeln(" <div class=\"sharebox\">");
+document.writeln(" <div class=\"bshare-custom\">");
+document.writeln(" <a href=\"javascript:void(0);\" title=\"分享到\" class=\"bshareDiv\" href=\"http://www.bshare.cn/share\" style=\"font-size:12px;font-weight:100;\">分享：</a>");
+document.writeln(" <a href=\"javascript:void(0);\" title=\"分享到新浪微博\" class=\"bshare-sinaminiblog\"></a>");
+document.writeln(" <a href=\"javascript:void(0);\" title=\"分享到腾讯微博\" class=\"bshare-qqmb\"></a>");
+document.writeln(" <a href=\"javascript:void(0);\" title=\"分享到人人网\" class=\"bshare-renren\"></a>");
+document.writeln(" <a href=\"javascript:void(0);\" title=\"分享到QQ空间\" class=\"bshare-qzone\"></a>");
+document.writeln(" </div>");
+document.writeln(" </div>");
+document.writeln(" <script language=\"javascript\" type=\"text/javascript\" src=\"http://static.bshare.cn/b/buttonLite.js#uuid=ceb08f79-b3e9-4dfd-9f66-30987ff1ffb4&amp;style=-1&amp;pop=1&amp;logo=false&amp;inline=true&amp;beta=true&amp;text=分享到：&amp;bp=bsharesync,sinaminiblog,qqmb,qqxiaoyou,baiduhi,favorite,baiducang,sohuminiblog,neteasemb,kaixin001,twitter,facebook\"></script>");
+document.writeln(" <script language=\"javascript\" type=\"text/javascript\" src=\"http://static.bshare.cn/b/bshareC1.js\"></script>");
+document.writeln(" <!--bshare分享模块 结束-->");

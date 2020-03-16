@@ -1,0 +1,47 @@
+@charset 'utf-8';
+.wrap { width: 1200px; margin: 0 auto; }
+.xcc { background: #F7F7F7; }
+.xcc-nav { font-size: 16px; }
+.xcc-nav ul { }
+.xcc-nav li { float: left; width: 130px; text-align: center; line-height: 50px; }
+.xcc-nav .index { width: 160px; }
+.xcc-nav li a { display: block; transition: all 0.25s; }
+.xcc-nav li a:hover, .xcc-nav li b { background: #19A65A; color: #fff; text-decoration: none; }
+.xcc-nav li b { cursor: default; font-weight: normal; display: block; }
+.xcc-intro { height: 470px; background: url(../images/pic/banner_xcc.jpg) center top no-repeat; margin: 0 0 1px; }
+.xcc-intro .pic { float: left; padding: 74px 0 0; width: 568px; margin: 0 0 0 -9px; }
+.xcc-intro .pic dt { padding: 0 9px 24px; background: url(../images/bg_pic_shadow.png) left bottom no-repeat; }
+.xcc-intro .pic dt img { padding: 4px; background: #fff; }
+.xcc-intro .pic dd { font-size: 14px; color: #fff; text-align: center; margin: -10px 0 0; }
+.xcc-intro .des { float: right; display: inline; margin: 74px 17px 0 0; width: 610px; height: 308px; background: rgba(255,255,255,0.1);  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#16FFFFFF, endColorstr=#16FFFFFF);
+color: #fff; }
+.xcc-intro .des dt { margin: 0 32px; font-size: 24px; line-height: 1.5; padding: 14px 0 8px; border-bottom: rgba(255,255,255,0.25) 1px solid; border-bottom: #fff 1px solid \9; text-align: center; }
+.xcc-intro .des dd { padding: 10px 32px; font-size: 14px; line-height: 2; text-indent: 2em; }
+.xcc-intro .des dd a { color: #fff; }
+.xcc-list-box { }
+.xcc-list-box .code { float: left; width: 210px; height: 220px; background: #F0F0F0; }
+.xcc-list-box .code dl { text-align: center; padding: 30px 0 0; }
+.xcc-list-box .code dt { }
+.xcc-list-box .code dt img { }
+.xcc-list-box .code dd { padding: 8px 0 0; width: 100px; margin: 0 auto; }
+.xcc-list-box .code dd img { padding: 7px; background: #fff; }
+.xcc-list-box .code dd span { background: #1956A9; color: #fff; display: block; line-height: 19px; }
+.xcc-list { float: left; width: 990px; }
+.xcc-list ul { padding: 26px 0 0; }
+.xcc-list li { float: left; width: 303px; height: 170px; position: relative; padding: 0 13px 0 14px; background: url(../images/line.gif) right center no-repeat; }
+.xcc-list li img { }
+.xcc-list li span { position: absolute; left: 14px; bottom: 0; border-left: #19A65A 4px solid; text-indent: 10px; line-height: 30px; background: rgba(0,0,0,0.8);  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
+width: 290px; padding: 0 9px 0 0; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.xcc-list li a { display: block; color: #fff; }
+.xcc-list li a:hover span { text-decoration: underline; }
+.xcc-des-r { }
+.xcc-des-r dt { font-size: 18px; line-height: 1.5; color: #458fce; }
+.xcc-des-r dd { text-indent: 2em; font-size: 14px; line-height: 2; color: #666; margin: 6px 0 0; }
+.xcc-des-r dd a { color: #458fce; }
+.xcc-list-r { float: none; width: auto; }
+.xcc-list-r ul { padding: 16px 0 0; }
+.xcc-list-r li { padding: 20px 0 0; background: none; }
+.xcc-list-r li span { left: 0; }
+/*fix*/
+.footer-wrap { margin: 0; }
+:root .xcc-list li span, .xcc-intro .des { filter: none; }
